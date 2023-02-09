@@ -3,7 +3,7 @@
 {{
     config(
         target_database = dbt,
-        target_schema = dev
+        target_schema = dev,
         unique_key="ticket_id", 
         strategy="check", 
         check_cols="all", 
