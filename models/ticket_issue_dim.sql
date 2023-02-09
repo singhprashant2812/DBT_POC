@@ -1,6 +1,9 @@
 {{
   config(
-    materialized = "table"
+    target_database='dbt',
+    target_schema='dit_poc',
+    materialized = "table",
+    transient = false
   )
 }}
 
